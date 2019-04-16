@@ -24,7 +24,7 @@ public class HitCountServlet extends HttpServlet {
             int x1 = Integer.parseInt(x); //set the parameter here
             PrintWriter out = response.getWriter();
             response.setContentType("text/html");
-            String title = "Total Number of Hits";
+            String title = "Total Number of Hits you made";
             out.println("<h1>"+title+" "+x+"</h1>");
 
 
