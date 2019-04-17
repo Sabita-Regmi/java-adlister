@@ -20,8 +20,8 @@
 <%@ page import="java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%! int counter = 0; %>
-<% counter += 1; %>
+<%--<%! int counter = 0; %>--%>
+<%--<% counter += 1; %>--%>
 <%--<%String name; %>--%>
 <html>
 <head>
@@ -31,8 +31,8 @@
 <jsp:include page="partials/navbar.jsp"></jsp:include>
 <%@ include file="partials/bootstrap.jsp" %>
 
-<h1 class="text-danger">The current count is <%= counter %>.</h1>
-<h2 class="text-danger">Hello ${param.name}!</h2>
+<h1 class="text-danger">The current count is ${count}.</h1>
+<h2 class="text-danger">Hello ${name}!</h2>
 
 View the page source!
 
