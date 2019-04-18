@@ -11,6 +11,6 @@
     <div class="container">
         <h1>Viewing your profile.</h1>
     </div>
-
+    <h1>here is session time ${loginTime} </h1>
 </body>
 </html>
